@@ -1,0 +1,33 @@
+{
+	"name": "my-portfolio",
+	"version": "1.0.0",
+	"description": "My personal website portfolio",
+	"main": "index.js",
+	"scripts": {
+		"compile:sass": "sass --watch scss:assets/css"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/cesaranzola/my-portfolio.git"
+	},
+	"keywords": [
+		"bootstrap-5",
+		"sass",
+		"portfolio",
+		"web-development"
+	],
+	"author": "Cesar Rodriguez",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/cesaranzola/my-portfolio/issues"
+	},
+	"homepage": "https://github.com/cesaranzola/my-portfolio#readme",
+	"devDependencies": {
+		"sass": "^1.55.0"
+	},
+	"dependencies": {
+		"@fortawesome/fontawesome-free": "^6.2.0",
+		"autoprefixer": "^10.4.12",
+		"bootstrap": "^5.2.2"
+	}
+}
