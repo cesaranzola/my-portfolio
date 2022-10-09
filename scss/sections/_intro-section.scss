@@ -7,3 +7,30 @@
 	width: 100%;
 	height: 100%;
 }
+
+.intros {
+	.video-box {
+		position: relative;
+		padding-right: 90px;
+
+		a {
+			position: absolute;
+			span {
+				i {
+					font-size: 6rem;
+					color: rgba($secondary, 0.7);
+				}
+			}
+		}
+	}
+}
+
+.border-animation {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 6rem;
+	height: 6rem;
+	border: 0.55rem solid rgb(238, 228, 228);
+	border-radius: 50%;
+}
