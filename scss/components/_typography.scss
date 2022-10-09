@@ -15,9 +15,35 @@
 	&--description {
 		font-family: 'Poppins', sans-serif;
 		display: block;
-		font-size: 1.2rem;
+		font-size: 1rem;
 		color: $white;
 		margin-top: 1.2rem;
 		text-transform: none;
+
+		@include media-breakpoint-up(lg) {
+			font-size: 1.2rem;
+			display: inline-block;
+		}
 	}
+}
+
+// Heading line
+.heading-line::before {
+	content: '';
+	width: 10rem;
+	height: 0.1rem;
+	display: block;
+	background-color: $primary;
+	margin: 0 auto;
+}
+
+.heading-line::after {
+	content: '';
+	width: 2rem;
+	height: 0.2rem;
+	padding-top: 0.5rem;
+	display: block;
+	background-color: $primary;
+	margin: 0 auto;
+	margin-bottom: 1rem;
 }

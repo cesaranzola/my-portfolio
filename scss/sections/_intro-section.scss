@@ -11,10 +11,7 @@
 .intros {
 	.video-box {
 		position: relative;
-		padding-right: 90px;
-
 		a {
-			position: absolute;
 			span {
 				i {
 					font-size: 6rem;
@@ -31,7 +28,7 @@
 	left: 0;
 	width: 6rem;
 	height: 6rem;
-	border: 0.45rem solid rgb(238, 228, 228);
+	border: 0.45rem solid $b-white;
 	border-radius: 50%;
 	animation: pulse-border 1.5s linear infinite;
 
@@ -40,5 +37,60 @@
 	}
 	&--border-2 {
 		animation-delay: 1.5s;
+	}
+}
+
+.play {
+	// @include media-breakpoint-up(sm) {
+	// 	position: absolute;
+	// 	top: 100px;
+	// 	left: 90px;
+	// }
+
+	// @include media-breakpoint-up(md) {
+	// 	position: absolute;
+	// 	top: 230px;
+	// 	right: 220px;
+	// }
+	// @include media-breakpoint-up(lg) {
+	// 	position: absolute;
+	// 	top: 230px;
+	// 	right: 220px;
+
+	// }
+	// 	@include media-breakpoint-up(xl) {
+	// 		position: absolute;
+	// 		top: 230px;
+	// 		right: 100px;
+	// 	}
+	// @include media-breakpoint-up(xxl) {
+	// 	position: absolute;
+	// 	top: 230px;
+	// 	right: 220px;
+	// }
+	// @media (min-width: 576px) {
+	// 	position: absolute;
+	// 	top: 230px;
+	// 	right: 3px;
+	// }
+	// @media (min-width: 768px) {
+	// 	position: absolute;
+	// 	top: 230px;
+	// 	right: 220px;
+	// }
+	// @media (min-width: 992px) {
+	// 	position: absolute;
+	// 	top: 230px;
+	// 	right: 220px;
+	// }
+	@media (min-width: 1200px) {
+		position: absolute;
+		top: 230px;
+		right: 220px;
+	}
+	@media (min-width: 1400px) {
+		position: absolute;
+		top: 230px;
+		right: 220px;
 	}
 }

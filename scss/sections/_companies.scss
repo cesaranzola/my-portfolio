@@ -1,0 +1,25 @@
+@use '../custom' as *;
+
+body {
+	background-color: $b-white;
+}
+
+.companies {
+	background-color: $b-white;
+	padding: 0 0 0.5rem 0;
+
+	&__logo-box {
+		max-width: 100%;
+		height: 3rem;
+		margin-bottom: 2rem;
+		padding: 0.38rem;
+		text-align: center;
+		position: relative;
+		img {
+			height: 100%;
+			&:hover {
+				filter: grayscale(120);
+			}
+		}
+	}
+}
