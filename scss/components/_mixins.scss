@@ -8,3 +8,19 @@
 		rgba($secondary, 0.95)
 	);
 }
+
+@mixin gradient-light-pri {
+	background: linear-gradient(
+		0.9turn,
+		rgba($primary, 0.4),
+		rgba($secondary, 0.4)
+	);
+}
+
+@mixin gradient-light-sed {
+	background: linear-gradient(
+		0.9turn,
+		rgba($secondary, 0.4),
+		rgba($primary, 0.4)
+	);
+}

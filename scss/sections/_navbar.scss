@@ -11,6 +11,17 @@
 			text-transform: capitalize;
 			font-weight: 600;
 		}
+		&:hover:nth-of-type(-n + 4) {
+			@include gradient-light-sed;
+			border-radius: 6.5%;
+		}
+		&:hover:nth-of-type(n + 5) {
+			@include gradient-light-pri;
+			border-radius: 6.5%;
+		}
+		&:hover:nth-of-type(4) {
+			@include gradient-light-sed;
+			border-radius: 6.5%;
+		}
 	}
 }
-

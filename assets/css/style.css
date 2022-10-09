@@ -10776,6 +10776,7 @@ textarea.form-control-lg {
   padding: 0.975rem 4.375rem 0.9375rem 1.25rem;
   font-weight: 700;
   margin: 0;
+  margin-left: 15px;
   border: 0.1rem solid rgba(255, 255, 255, 0.6);
 }
 @media (max-width: 575.98px) {
@@ -10789,7 +10790,7 @@ textarea.form-control-lg {
   width: 2.5rem;
   height: 2.5rem;
   top: 50%;
-  right: 5px;
+  right: 15px;
   transform: translateY(-50%);
   border-radius: 50%;
   background-color: #fff;
@@ -10808,6 +10809,25 @@ textarea.form-control-lg {
   background-color: rgba(0, 0, 0, 0.6) !important;
 }
 
+.display-2 {
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+}
+.display-2--intro {
+  display: inline-block;
+  font-weight: 700;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+.display-2--description {
+  font-family: "Poppins", sans-serif;
+  display: block;
+  font-size: 1.2rem;
+  color: #fff;
+  margin-top: 1.2rem;
+  text-transform: none;
+}
+
 .menu {
   background: linear-gradient(to right, rgba(126, 37, 83, 0.95), rgba(29, 43, 83, 0.95));
 }
@@ -10818,6 +10838,25 @@ textarea.form-control-lg {
   color: seashell !important;
   text-transform: capitalize;
   font-weight: 600;
+}
+.menu li:hover:nth-of-type(-n + 4) {
+  background: linear-gradient(0.9turn, rgba(29, 43, 83, 0.4), rgba(126, 37, 83, 0.4));
+  border-radius: 6.5%;
+}
+.menu li:hover:nth-of-type(n + 5) {
+  background: linear-gradient(0.9turn, rgba(126, 37, 83, 0.4), rgba(29, 43, 83, 0.4));
+  border-radius: 6.5%;
+}
+.menu li:hover:nth-of-type(4) {
+  background: linear-gradient(0.9turn, rgba(29, 43, 83, 0.4), rgba(126, 37, 83, 0.4));
+  border-radius: 6.5%;
+}
+
+.intro-section {
+  background: linear-gradient(to right, rgba(126, 37, 83, 0.95), rgba(29, 43, 83, 0.95));
+  padding: 10rem 0 0 0;
+  width: 100%;
+  height: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
